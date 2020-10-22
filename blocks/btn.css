@@ -1,0 +1,46 @@
+.btn {
+    background: #ba0700;
+    border-radius: 30px;
+    padding: 18px 39px;
+    color: #fff;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+}
+.btn--hero {
+    margin-top: 36px;
+}
+
+.btn--color--red:hover {
+    background: #ba0700;
+    color: #fff;
+    transition: .3s;
+}
+
+.btn--color--white {
+    background: #fff;
+    color: #ba0700;
+    border: 1px solid #f5170e;
+}
+.btn--color--white:hover {
+    background: #ba0700;
+    color: #fff;
+    border: 1px solid #f5170e;
+    transition: .3s;
+}
+
+.btn--service {
+    margin-top: 18px;
+}
+
+.btn--color--grey {
+    background: #2b2b2b;
+    color: #fff;
+}
+.btn--color--grey:hover {
+    background: #ba0700;
+    color: #fff;
+    transition: .3s;
+}

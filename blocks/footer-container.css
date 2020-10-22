@@ -1,0 +1,10 @@
+.footer-container {
+    margin-top: auto;
+}
+.footer-container__section {
+    height: 140px;
+    margin-top: 12px;
+}
+.footer-container__content {
+    border-top: 1px solid #15242b;
+}
