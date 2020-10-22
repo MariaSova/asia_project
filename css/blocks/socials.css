@@ -1,0 +1,60 @@
+.socials {
+    margin-right: 74px;
+    display: flex;
+}
+
+.socials__item {
+    margin-right: 6px;
+}
+
+.socials__item:last-child {
+    margin-right: 0;
+}
+
+.socials__link {
+    display: block;
+    text-decoration: none;
+    width: 36px;
+    height: 36px;
+    background: center center no-repeat;
+}
+
+.socials__item--icon--telegram {
+    background: url("../../img1/icon/sprites.png") -122px -10px;
+    opacity: .4;
+    transition: .3s;
+}
+.socials__item--icon--telegram:hover {
+    background: url("../../img1/icon/sprites.png") -122px -10px;
+    opacity: 1;
+}
+
+.socials__item--icon--vk {
+    background: url("../../img1/icon/sprites.png") -178px -10px;
+    opacity: .4;
+    transition: .3s;
+}
+.socials__item--icon--vk:hover {
+    background: url("../../img1/icon/sprites.png") -178px -10px;
+    opacity: 1;
+}
+
+.socials__item--icon--fb {
+    background: url("../../img1/icon/sprites.png") -10px -10px;
+    opacity: .4;
+    transition: .3s;
+}
+.socials__item--icon--fb:hover {
+    background: url("../../img1/icon/sprites.png") -10px -10px;
+    opacity: 1;
+}
+
+.socials__item--icon--insta {
+    background: url("../../img1/icon/sprites.png") -66px -10px;
+    opacity: .4;
+    transition: .3s;
+}
+.socials__item--icon--insta:hover {
+    background: url("../../img1/icon/sprites.png") -66px -10px;
+    opacity: 1;
+}
